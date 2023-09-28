@@ -1,3 +1,13 @@
+/**
+* Author: William Liburd
+* Assignment: Simple 2D Scene
+* Date due: 2023-09-30, 11:59pm
+* I pledge that I have completed this assignment without
+* collaborating with anyone else, in conformance with the
+* NYU School of Engineering Policies and Procedures on
+* Academic Misconduct.
+**/
+
 #define GL_SILENCE_DEPRECATION
 #define STB_IMAGE_IMPLEMENTATION
 
@@ -62,17 +72,6 @@ float previous_ticks = 0.0f;
 
 GLuint player_texture_id;
 GLuint other_texture_id;
-
-//glm::vec3 player_position = glm::vec3(0.0f, 0.0f, 0.0f);
-//glm::vec3 player_movement = glm::vec3(0.0f, 0.0f, 0.0f);
-//
-//glm::vec3 other_position = glm::vec3(0.0f, 0.0f, 0.0f);
-//glm::vec3 other_movement = glm::vec3(1.0f, 1.0f, 0.0f);
-//
-//glm::vec3 player_orientation = glm::vec3(0.0f, 0.0f, 0.0f);
-//glm::vec3 player_rotation = glm::vec3(0.0f, 0.0f, 0.0f);
-
-float player_speed = 1.0f;  // move 1 unit per second
 
 #define LOG(argument) std::cout << argument << '\n'
 
