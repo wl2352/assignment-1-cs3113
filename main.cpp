@@ -173,7 +173,7 @@ void update()
     g_model_matrix = glm::mat4(1.0f);
 
     g_model_matrix = glm::translate(g_model_matrix, glm::vec3(g_triangle_x, g_triangle_y, 0.0f));
-    //g_model_matrix = glm::rotate(g_model_matrix, glm::radians(g_triangle_rotate), glm::vec3(0.0f, 0.0f, 0.0f));
+    g_model_matrix = glm::rotate(g_model_matrix, glm::radians(g_triangle_rotate), glm::vec3(0.0f, 0.0f, 1.0f));
 
     o_angle += delta_time;
 
